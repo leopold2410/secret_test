@@ -3,5 +3,8 @@ kind: Kustomization
 
 namespace: secret-test
 
+bases:
+- ../../base
+
 resources:
   - 04-ingress.yaml
